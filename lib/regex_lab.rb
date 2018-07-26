@@ -1,7 +1,7 @@
 def starts_with_a_vowel?(word)
-  if word.match(/\b[aeiou]/i)
+  if word.match(/^[aeiou]/i)
     true
-  elsif word.match(/\b[b-df-hj-np-tv-z]/i)
+  elsif word.match(/^[b-df-hj-np-tv-z]/i)
     false
   end
 end
